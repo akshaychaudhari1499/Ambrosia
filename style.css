@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+}
+.left img{
+    width:50vw;
+    height:100vh;
+}
+.right{
+    background-color: lightyellow;
+    transition: width 2s, height 2s, transform 2s;  
+    width:50vw;
+    height:89vh;
+    justify-content: center;
+    align-items: center;
+    display: gridl;
+    font-size:medium;
+    font-family: cursive;
+    padding:40px;
+
+}
+.bar{
+    display :flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;   
+   
+    
+}
+
+  .btn {
+    border-radius: 20px;
+    background: url('logo.jpg');
+    color: black;
+    padding: 15px 20px;
+    font-size: larger;
+    font-weight: bolder;
+    font-style:inherit;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: 3px 5px 3px rgba(0,0,0,.5);
+    opacity: 0.9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  /* #btn {
+    border-radius: 20px;
+    background-color: yellow;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: larger;
+    font-weight: bolder;
+    font-style:inherit;
+    opacity: 0.9;
+    margin-top: 70px;
+    box-shadow: 2px 5px 4px rgba(0,0,0,.5);
+  } */
+  
+#btn {
+    font-style:inherit;
+    box-shadow: 2px 5px 4px #f4e405fb;
+    background:white;
+    padding:1em 2em;
+    border:0.4em solid black;
+    border-radius:3em 0 3em 0;
+    color:black;
+    font-size: larger;
+    font-weight:bolder;
+    width: 100%;
+    transition:0.1s;
+    opacity:1;
+    text-decoration: none;
+    margin-top: 50px;
+}
+#btn:hover {
+    background:black;
+    color:white;
+    transition:0.1s;
+}
+
+.right pre{  
+
+
+    margin-top: 60px;
+    margin-left: 90px;
+    font-weight: bolder;
+    color: black;
+    font-family: cursive;
+    font-size: 30px;
+}
+#nf{
+    width: 60vw;
+    padding: 16px;
+    background-color: blanchedalmond;
+    box-shadow: 2px 5x 3px rgba(0,0,0,.5);
+    border-radius: 20px;
+}
+#nu{
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 94.5%;
+    opacity: 0.9;
+    border-radius: 20px;
+    box-shadow: 5px 5x 3px rgba(0,0,0,.5);
+}
