@@ -1,6 +1,8 @@
 *{
     margin: 0px;
     padding: 0px;
+    overflow: hidden;
+    
 }
 .container{
     display: flex;
@@ -68,7 +70,7 @@
     box-shadow: 2px 5px 4px #f4e405fb;
     background:white;
     padding:1em 2em;
-    border:0.4em solid black;
+    border:0.1em solid black;
     border-radius:3em 0 3em 0;
     color:black;
     font-size: larger;
